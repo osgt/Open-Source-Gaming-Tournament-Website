@@ -490,6 +490,12 @@ img {
     margin-bottom:-20px;
     }
 
+.qr {
+    color: var(--bg); 
+    font-size: 120%;
+    line-height: 0.9;
+    }
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 855px) {
   .column {
@@ -520,6 +526,7 @@ line-height: 0.9;
 img {
   margin-bottom:0px;
 }
+
 
 }
 
@@ -566,7 +573,7 @@ img {
 
   <center>
     <h2>Pricepool so far:</h2>
-    <span style="color: var(--bg); font-size: 500%" id="balance">100$</span>
+    <span style="color: var(--bg); font-size: 450%" id="balance">100$</span>
   </center>
   <hr></hr>
   <center>
@@ -599,24 +606,24 @@ img {
 <div id="2" class="tabcontent">
 <div><div  id="eth-note">
   <pre title="bc1qw0va3gm52trycvcsyncamf2m2tumekm4najnwk">
-    <span style="color: var(--bg); font-size: 100%">
-    ▄▄▄▄▄▄▄   ▄ ▄ ▄  ▄ ▄▄ ▄▄▄▄▄▄▄  
-    █ ▄▄▄ █ ▀ ▀ ▄▀ ▀▄▀█▄▄ █ ▄▄▄ █  
-    █ ███ █ ▀█▀ ▀▀▄ ▄▀▀▄▄ █ ███ █  
-    █▄▄▄▄▄█ █▀▄▀█▀█▀█ █ ▄ █▄▄▄▄▄█  
-    ▄▄▄▄▄ ▄▄▄█▀█ ▄▄▀▀▄▀▄▄▄ ▄ ▄ ▄   
-    ▀▄▀   ▄▄▀ █ ▀█ ▄▀█▄▀▄▀█▀█▄  ▀  
-    ▀ ▀▄█▄▄▀▄▄▄ █▄██▄▄▀    █▀█▄▄   
-    ▀█▀█  ▄▄▀▀▄▄▄█▀▄   ▀█ ▀▄█ ▄▄▀  
-     ▄▄█▀ ▄▀▄▄▄█ ▄▄▄▄▄█▄▄▄ ▀ █▄▄▀  
-    █ ██▀█▄▄▄▀  ▀▄▄▄ ▄ ▀▄ ▀██ █▀▀  
-    █ █▄█ ▄█▄█  █▄█▀▄▄ ▄▄▄▄█▄▀▄█▀  
-    ▄▄▄▄▄▄▄ █▀▄▄▄▀▄▄█▄ ██ ▄ █▄▄▀▀  
-    █ ▄▄▄ █ ▄█▄█   ▀▄▄  █▄▄▄█▄▄██  
-    █ ███ █ ███ ▀█▄▄▀▀▀▄ ▄▄▄▄█▄█▀  
-    █▄▄▄▄▄█ █▄▄ █▀▄▀▄▄ ▀▀▀█▄██▄▀   
+    <span class="qr" >
+      ▄▄▄▄▄▄▄   ▄ ▄▄  ▄ ▄▄▄ ▄▄▄▄▄▄▄  
+      █ ▄▄▄ █ ▀ ▀ ▄▀▀█▄▀▀▄▄ █ ▄▄▄ █  
+      █ ███ █ ▀█▀ ▀▀▀▀▀▀▄█▄ █ ███ █  
+      █▄▄▄▄▄█ █▀▄▀█ ▄▀█ █ █ █▄▄▄▄▄█  
+      ▄▄▄▄▄ ▄▄▄█▀█ ▄█▀▀▄ ▄▄▄ ▄ ▄ ▄   
+        ▄█ █▄▀  █ ▀█ ▄█▀▀▀█▄▀▄█▄  ▀  
+      █▄▀█ ▄▄ ▄▄▄ █▄▄  ▄ ▀▄▀▀█▀█▄▄   
+      ▄▄▄ █ ▄██▄▄▄▄█▄▄█▄▀▀█ ▀▄██▄▄▀  
+      ██▄█ ▄▄▀▄ ▀█ ▄▄█▀▄█▀ ▀ ▀ ▄▄▄▀  
+      █ ▀▄ ▀▄██▄█ ▀▄█▄█▄▄▀▀▄▀█▀  ▀▀  
+      █ ▄▄██▄  ▀▄ █▄█▀▀▄▀▀██████▄█▀  
+      ▄▄▄▄▄▄▄ ██▀▄▄█ ▄█▀▀██ ▄ █▀▄▀▀  
+      █ ▄▄▄ █ ▄█▄█  ▀██▄▄▀█▄▄▄█▀▄██  
+      █ ███ █ █▄▀ ▀█▄▄▀▄▄▀▀ ▄▄▄▄ █▀  
+      █▄▄▄▄▄█ ███ █▀▄██▄▀▄▀▀▀▀▄▄▄▀   
     </span></pre>
-    <h2>bc1qw0va3gm52trycvcsyncamf2m2tumekm4najnwk</h2>
+    <h2 style="word-break: break-all; font-size: 100%;" >bc1qw0va3gm52trycvcsyncamf2m2tumekm4najnwk</h2>
     <div id="biggest-contributors"></div>
 </div></div>
 
@@ -792,7 +799,6 @@ img {
 
 <a style="text-decoration: none;" class="button buttonmini active" >En</a>
 <a style="text-decoration: none;" href="index_DE" class="button buttonmini" >De</a>
-<a style="text-decoration: none;" href="index_RU" class="button buttonmini" >Ru</a>
 
 </div>
 
