@@ -13,11 +13,10 @@
     <base target="_blank">
     <meta name="description" content="Play and Support Open Source Gaming" />
     <meta property="og:image" content="logo.png"/>
-    <meta property="og:title" content="🟠 Open-Source-Gaming-Tournament.com 🟠"/>
+    <meta property="og:title" content="🎮 Open-Source-Gaming-Tournament.com 🎮"/>
     <meta property="og:site_name" content="Open-Source-Gaming-Tournament.com"/>
-    <meta property="og:description" content="Play and Support Open Source Gaming" />
+    <meta property="og:description" content="Play and Support Open-Source Gaming" />
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 <link rel="icon" type="image/png" href="media/logo.png" />
@@ -29,7 +28,7 @@
 :root {
   --bg: #f9cc33;
   --color1: #101934;
-  --color2: #ecc232;
+  --color2: #7c5f00;
   --blue: #1e90ff;
   --blue2: #93d5ff;
   --grey: #252426;
@@ -97,10 +96,12 @@ p {
 }
 
 hr {
-    border-radius: 2px;
-    height: 0px;
+    border-radius: 5px;
+    height: 10px;
     border: 2.5px solid var(--bg);
-    width: 85%;
+    width: 100%;
+
+    background-color: var(--bg);
 
 }
 
@@ -114,7 +115,7 @@ input {
       width: 100%;
       font-size: 25px;
       color: var(--bg); background: var(--color1);
-      border: solid 2px var(--color2);
+      border: solid 2px var(--bg);
       border-radius: 5px;
       padding: 10px;
     }
@@ -129,19 +130,19 @@ input {
       font-size: 15px;
       color: var(--color1); 
       background: var(--bg);
-      border: solid 2px var(--color2);
+      border: solid 2px var(--bg);
       border-radius: 5px;
       padding: 10px;
     }
 
     textarea:focus,input:focus {
-      border: solid 2px var(--color2);
-      outline: solid 5px var(--color2);
+      border: solid 2px var(--bg);
+      outline: solid 5px var(--bg);
     }
 
     textarea:hover,input:hover {
-      border: solid 2px var(--color2);
-      outline: solid 5px var(--color2);
+      border: solid 2px var(--bg);
+      outline: solid 5px var(--bg);
     }
 
     .buttonform {
@@ -151,20 +152,20 @@ input {
       display: block;
       width: 100%;
       font-size: 200%;
-      color: var(--color1); background: var(--color2);
-      border: solid 2px var(--color2);
+      color: var(--color1); background: var(--bg);
+      border: solid 2px var(--bg);
       border-radius: 5px;
       padding: 10px;
     }
 
-    .buttonform:link {font-weight: bold; color: var(--color2); text-decoration:underline;}
-    .buttonformvisited {color: var(--color2); text-decoration:none;}
-    .buttonform:hover { outline: solid 5px var(--color2);text-shadow: 0px 0px 0px  var(--color4);text-decoration:none; cursor: pointer; border: solid 2px var(--color2); color: var(--bg); background: var(--color1);}
+    .buttonform:link {font-weight: bold; color: var(--bg); text-decoration:underline;}
+    .buttonformvisited {color: var(--bg); text-decoration:none;}
+    .buttonform:hover { outline: solid 5px var(--bg);text-shadow: 0px 0px 0px  var(--color4);text-decoration:none; cursor: pointer; border: solid 2px var(--bg); color: var(--bg); background: var(--color1);}
 
     span {
       font-weight: bold;
       font-size: 25px;
-      color: var(--color2);
+      color: var(--bg);
     }
 
     img {
@@ -496,6 +497,9 @@ img {
     line-height: 0.9;
     }
 
+
+
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 855px) {
   .column {
@@ -537,19 +541,16 @@ img {
 
 
 <body>
-
+<div class="main">
 <center>
 
 
 <div>
 
-
-
-<img  width="30%" src="media/logo.png" alt="Logo">
-
 <h1><font style="line-height: 0.5; font-size: 115%;" >Open-Source</font></h1>
 <h1><font style="line-height: 0.5; font-size: 215%;" >Gaming</font></h1>
 <h1><font style="line-height: 0.5; font-size: 125%;" >Tournament</font></h1>
+<h1><font style="line-height: 0.5; font-size: 115%;" >10.Nov 2023</font></h1>
 
 </div>
 
@@ -562,25 +563,26 @@ img {
 </center>
 
 
-<div class="main">
+
   <hr></hr>
 <center>
 
 
 </center>
 <div id="1" class="tabcontent">
-<div><div style="color: var(--bg); id="btc-note">
+<div><div style="color: var(--bg);" id="btc-note">
 
   <center>
     <h2>Pricepool so far:</h2>
     <span style="color: var(--bg); font-size: 450%" id="balance">Loading...</span>
   </center>
-  <hr></hr>
+
+
   <center>
   <h2>About the Tournament</h2>
 
   </center>
-  <p>The Open Source Gaming Tournament is a competition for players of the open source games 0.A.D and SuperTuxCart. The tournament is open to anyone who wants to participate, regardless of skill level or experience.</p>
+  <p>The Open Source Gaming Tournament is a competition for players of the open source games 0.A.D and SuperTuxKart. The tournament is open to anyone who wants to participate, regardless of skill level or experience.</p>
   <a href="https://supertuxkart.net/Main_Page"><img width="45%" src="media/SuperTuxCart-Logo.png" alt="Monero-Logo">
   </a>	
   <a href="https://play0ad.com/"><img width="45%" src="media/0ad-Logo.png" alt="Monero-Logo">
