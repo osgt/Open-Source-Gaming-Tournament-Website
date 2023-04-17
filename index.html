@@ -20,7 +20,7 @@
 
 
 <link rel="icon" type="image/png" href="media/logo.png" />
-
+<link rel="stylesheet"  href="style.css" />
 
 
 <style>
@@ -627,17 +627,21 @@ img {
     <input type="hidden" name="redirectTo" value="https://open-source-gaming-tournament.com/thankyou">
     <!-- If we receive data in this field submission will be ignored -->
     <input type="text" name="honeypot" style="display: none;"> <!-- Optional -->
-
 <br>
     <div class="field">
       <div class="control">
         <input type="text" name="name" placeholder="Your Name">
         <br>
         <input class="input" type="email" name="email" placeholder="your@email.com" required>
+        <br>
+        <input type="text" id="bitcoin_wallet" name="$bitcoin_wallet" placeholder="Your Bitcoin address: bc1234ABC..." required>
       </div>
 <br>
 <button class="buttonform is-primary" type="Submit">Register</button>
 </form>
+
+
+
 </div></div>
 
 </div>
