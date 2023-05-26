@@ -130,7 +130,7 @@ img {
 
 <div id="2" class="tabcontent">
 <div><div  id="eth-note">
-  <span style="font-size: 200%;">1. Contribute</span>
+  <span style="font-size: 200%;">1. Consider contributing</span>
   <span style="font-size: 100%;">a minimum of</span>
   <span style="font-size: 200%;">5$</span>
   <span style="font-size: 100%;" class="bitcoin-price" id="bitcoin-price">(loading...)</span>
@@ -147,32 +147,53 @@ img {
   </center>
   <span style="font-size: 200%;">2. Fill out form</span>
 
-  <form action="https://api.staticforms.xyz/submit" method="post" id="staticform">
-    <!-- Replace with your StaticForms accessKey -->
-    <input type="hidden" name="accessKey" value="b4e405df-6e91-43d2-9cfc-2c8c4bbc1c8f">
-    <input type="hidden" name="subject" value="New Player">
-    <!-- Replace with the url you want to redirect to -->
-    <input type="hidden" name="redirectTo" value="https://open-source-gaming-tournament.com/thankyou">
-    <!-- If we receive data in this field submission will be ignored -->
-    <input type="text" name="honeypot" style="display: none;"> <!-- Optional -->
+<form action="https://api.staticforms.xyz/submit" method="post" id="staticform">
+  <!-- Replace with your StaticForms accessKey -->
+  <input type="hidden" name="accessKey" value="b4e405df-6e91-43d2-9cfc-2c8c4bbc1c8f">
+  <input type="hidden" name="subject" value="New Player">
+  <!-- Replace with the url you want to redirect to -->
+  <input type="hidden" name="redirectTo" value="https://open-source-gaming-tournament.com/thankyou">
+  <!-- If we receive data in this field submission will be ignored -->
+  <input type="text" name="honeypot" style="display: none;"> <!-- Optional -->
 <br>
-    <div class="field">
-      <div class="control">
-        <input type="text" name="name" placeholder="Your Name">
-        <br>
-        <input class="input" type="email" name="email" placeholder="your@email.com" required>
-        <br>
-        <input type="text" id="bitcoin_wallet" name="$bitcoin_wallet" placeholder="Your Bitcoin address: bc1234ABC..." required>
-      </div>
-    </div>
-    <center>
-      <span style="font-size: 100%;">⚠️ Use the same address as used for the contribution ⚠️</span>
+  <div class="field">
+    <div class="control">
+      <input type="text" name="name" placeholder="Your Name">
       <br>
-      <span style="font-size: 100%;">⚠️ Eventual Price will be send to this address ⚠️</span>
-    </center>
+      <input class="input" type="email" name="email" placeholder="your@email.com" required>
+      <br>
+      <input type="text" id="bitcoin_wallet" name="$bitcoin_wallet" placeholder="Your Bitcoin address: bc1234ABC..." >
+    </div>
+  </div>
+    <span style="font-size: 100%;">(Optional)</span>
+    <br>
+    <span style="font-size: 100%;">⚠️ Use the same address as used for the contribution ⚠️</span>
+    <br>
+    <span style="font-size: 100%;">⚠️ Eventual Price will be send to this address ⚠️</span>
+  </center>
+  <br>
+  <br>
+    <span style="font-size: 200%;">Pick game/s:</span>  
+    <br>
+    <br>
+    <label class="switch" required>
+      <input name="$SuperTuxKart" value="SuperTuxKart" type="checkbox">
+      <span class="slider"></span>
+    </label>
+    <span style="font-size: 200%;">SuperTuxCart</span>  
+    <br>
+    <br>
+    <label class="switch">
+      <input name="$0ad" value="0ad" type="checkbox" >
+      <span class="slider"></span>	
+    </label>
+    <span style="font-size: 200%;">0 A.D</span> 
+    <br><br>
+
 <br>
 <button class="buttonform is-primary" type="Submit">Register</button>
 </form>
+
 
 
 <br>
