@@ -4,9 +4,7 @@
 
 <main>
 <center>
-<pre style="background-color: #222; color: #eee;">
-<span style="color: #4FED4F;">[OSGT@outreach <span style="color: #eee;">email</span>]$</span> send invitation            
-Generating...                                     
+<pre style="background-color: #222; color: #eee;">                                  
          ┏─┓      ┏─────┓    ┏─┓ ┏───┳───┓        <span><a style="text-decoration: none;" href="https://open-source-gaming-tournament.com/">
    █▀█ █▀█ █▀▀ █▄ █     █▀ █▀█ █ █ █▀█ █▀▀ █▀▀    
    █▄█ █▀▀ ██▄ █ ▀█     ▄█ █▄█ █▄█ █▀▄ █▄▄ ██▄    </span></a>
@@ -46,10 +44,6 @@ Generating...
    │     │  │:▄▀▄::::---::│   ┏──┻──┓     __│__   
    │     │  │▄:▄▄▄▄▄: + ::│  (+)__(::)   [+..••]  
    '.___.'  ┗─────────────┛  //     \\            
-                                                  
-Sending...                                        
-Mail delivered ✔                                  
-<span style="color: #4FED4F;">[OSGT@outreach <span style="color: #eee;">email</span>]$</span> <span class="blinking-cursor">█</span>                          
 
 </pre>
 </center>
