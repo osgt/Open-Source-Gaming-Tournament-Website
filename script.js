@@ -2,7 +2,7 @@
   // BITCOIN
 
     // Replace with your own Bitcoin address
-    var address = "bc1qw0va3gm52trycvcsyncamf2m2tumekm4najnwk";
+    var address = "bc1qpqx2l8h277x7vnjg7d0srzhnrv3xd69f6589zp";
     // API endpoint to get transaction information
     var apiUrl = "https://blockchain.info/rawaddr/" + address;
     // Fetch transaction information from API
